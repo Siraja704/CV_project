@@ -1,0 +1,56 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local datasets & downloads (large)
+data/
+datasets/
+
+# Training / detection outputs
+runs/
+wandb/
+
+# Model weights & exports
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mlmodel
+
+# Archives often used for VOC / COCO
+*.tar
+*.tar.gz
+*.zip
+
+# Logs & temp
+*.log
+/tmp/
